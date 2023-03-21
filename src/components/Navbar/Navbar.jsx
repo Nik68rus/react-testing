@@ -16,6 +16,12 @@ const Navbar = () => {
       <Link to="/users" data-testid="users-link">
         Users
       </Link>
+      <Link to="/users-test" data-testid="users-link">
+        Users e2e test
+      </Link>
+      <Link to="/e2e" data-testid="e2e-test">
+        e2e tests
+      </Link>
     </header>
   );
 };
